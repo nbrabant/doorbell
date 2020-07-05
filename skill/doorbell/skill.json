@@ -1,0 +1,39 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "name": "doorbell",
+          "summary": "Intent for doorbell IOT button",
+          "description": "Intent for doorbell IOT button",
+          "examplePhrases": [
+            "Alexa we ring"
+          ],
+          "keywords": []
+        },
+        "fr-FR": {
+          "name": "doorbell",
+          "summary": "Skill pour bouton IOT",
+          "description": "Skill pour bouton IOT",
+          "examplePhrases": [
+            "Alexa on sonne"
+          ],
+          "keywords": []
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Sample Testing Instructions.",
+      "category": "KNOWLEDGE_AND_TRIVIA",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda/custom",
+          "uri": "ask-custom-doorbell-default"
+        }
+      }
+    },
+    "manifestVersion": "1.0"
+  }
+}
