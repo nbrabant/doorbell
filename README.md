@@ -12,7 +12,9 @@ This project is a way to use IOT button to communicate with Alexa like as a door
 
 ## Installation
 
-First, install [ASK CLI](https://developer.amazon.com/fr-FR/docs/alexa/smapi/quick-start-alexa-skills-kit-command-line-interface.html) and deploy the skill to your Alexa developper account
+First, install [ASK CLI](https://developer.amazon.com/fr-FR/docs/alexa/smapi/quick-start-alexa-skills-kit-command-line-interface.html) and deploy the skill to your Alexa developper account. In the next step, link the skill to your AWS console account (LWA). And finally, in the permission menu, activate the "Send Alexa events" option to get the client Id and secret.
+
+The next step is to attach IOT button to your AWS Lambda : go to your IOT Core interface and add your IOT button, then attach a new lambda function action.
 
 
 
